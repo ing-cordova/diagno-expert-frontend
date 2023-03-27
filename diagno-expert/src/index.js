@@ -4,7 +4,7 @@ import GlobalStyle from './styles/global';
 import { themeLight, themeDark } from './styles/theme';
 import { ThemeProvider } from 'styled-components';
 import { AppThemeProvider, useAppTheme } from './context/AppTheme';
-import Container from './components/organisms/container/Container';
+import Home from './pages/home';
 
 const AppRenderTheme = memo(() => {
   const { theme } = useAppTheme
@@ -12,7 +12,7 @@ const AppRenderTheme = memo(() => {
   return (
     <ThemeProvider theme={theme === 'light' ? themeLight : themeDark}>
       <GlobalStyle />
-      <Container/>
+      <Home />
     </ThemeProvider >
   );
 });
