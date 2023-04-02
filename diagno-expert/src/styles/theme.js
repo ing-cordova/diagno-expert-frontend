@@ -1,6 +1,7 @@
 const colorsLight = {
     primary: '#3B65FF',
     secondary: '#3888FF',
+    secondaryHover: '#5c9dff',
     tertiary: '#C8C8C8',
     background: '#3B65FF',
     white: '#FFFFFF',

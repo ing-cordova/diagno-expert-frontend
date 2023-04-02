@@ -10,6 +10,6 @@ export const MainContainer = styled.div`
     height: 80vh; /* ajustar la altura según tu preferencia */
     padding: 20px;
     box-sizing: border-box;
-    margin: 10vh auto; /* margen igual y relativo */
+    margin: 0 auto; /* margen igual y relativo */
     border-radius: 15px;
 `;
