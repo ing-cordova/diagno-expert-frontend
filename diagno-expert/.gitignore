@@ -35,6 +35,9 @@ yarn-error.log*
 # AWS User-specific
 .idea/**/aws.xml
 
+# Sensitive IDEA files
+.idea
+
 # Generated files
 .idea/**/contentModel.xml
 
