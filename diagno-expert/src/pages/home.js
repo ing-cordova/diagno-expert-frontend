@@ -4,10 +4,12 @@ import Layout from "../components/organisms/layout/Layout";
 import HomeImage from "../assets/home-image.svg";
 import Button from "../components/atoms/button/Button";
 import styles from "./styles/home.module.css";
+import MenuNavBar from "../components/molecules/menuNavBar/MenuNavBar";
 
 const Home = () => {
   return (
     <Layout>
+      <MenuNavBar/>
       <Container>
         <div className={styles["main-container"]}>
           <div className={styles["first-column"]}>
