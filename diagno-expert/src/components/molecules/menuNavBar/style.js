@@ -1,4 +1,4 @@
-import style from 'styled-components';
+import style from "styled-components";
 
 export const MenuNavBarStyle = style.div`
     display: flex;
@@ -6,9 +6,8 @@ export const MenuNavBarStyle = style.div`
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 85vw; /* ancho máximo */
     height: 8vh; /* ajustar la altura según tu preferencia */
-    margin: 5vh auto 0 auto; /* margen igual y relativo */
+    max-width: 85vw; /* ancho máximo */
 `;
 
 export default MenuNavBarStyle;
