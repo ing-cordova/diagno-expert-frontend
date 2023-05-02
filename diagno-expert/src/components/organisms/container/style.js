@@ -12,4 +12,5 @@ export const MainContainer = styled.div`
     box-sizing: border-box;
     margin: 0 auto; /* margen igual y relativo */
     border-radius: 15px;
+    position: relative;
 `;
