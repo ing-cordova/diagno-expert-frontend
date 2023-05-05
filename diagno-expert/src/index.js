@@ -4,7 +4,7 @@ import GlobalStyle from './styles/global';
 import { themeLight, themeDark } from './styles/theme';
 import { ThemeProvider } from 'styled-components';
 import { AppThemeProvider, useAppTheme } from './context/AppTheme';
-import Home from './pages/home';
+import Routes from './routes/routes';
 
 const AppRenderTheme = memo(() => {
   const { theme } = useAppTheme
@@ -12,7 +12,7 @@ const AppRenderTheme = memo(() => {
   return (
     <ThemeProvider theme={theme === 'light' ? themeLight : themeDark}>
       <GlobalStyle />
-      <Home />
+      <Routes />
     </ThemeProvider >
   );
 });
